@@ -1,2 +1,26 @@
 @import "tailwindcss";
 
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: system-ui;
+}
+html,body{
+height: 100%;
+width: 100%;
+}
+
+/* .card{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    padding: 40px;
+    margin: 10px;
+    color: white;
+} */
+
+.all-cards{
+    display: flex;
+    flex-wrap: wrap;
+}
